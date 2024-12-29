@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  height: 97vh;
+  gap: 2rem;
+}
+.header {
+  grid-row: 1;
+  text-align: center;
+  background-color: chartreuse;
+}
+.footer {
+  grid-row: 3;
+  text-align: center;
+  background-color: rgba(16, 80, 110, 0.405);
+}
+.contents {
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: 20% auto 20%;
+
+  gap: 2rem;
+}
+.content {
+  background-color: hotpink;
+  padding: 1rem;
+}
+.right-side {
+  background-color: rgb(169, 50, 52);
+  padding: 1rem;
+}
+.left-side {
+  background-color: rgb(222, 194, 35);
+  padding: 1rem;
+}
