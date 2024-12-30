@@ -28,7 +28,11 @@ body {
   gap: 2rem;
 }
 .content {
-  background-color: hotpink;
+  background-image: linear-gradient(
+    rgba(255, 243, 115, 0.63),
+    rgba(203, 62, 232, 0.697),
+    rgba(110, 110, 219, 0.544)
+  );
   padding: 1rem;
 }
 .right-side {
