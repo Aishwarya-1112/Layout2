@@ -36,10 +36,18 @@ body {
   padding: 1rem;
 }
 .right-side {
-  background-color: rgb(169, 50, 52);
+  background-image: linear-gradient(
+    rgba(228, 101, 79, 0.63),
+    rgba(193, 31, 225, 0.945),
+    rgba(110, 110, 219, 0.544)
+  );
   padding: 1rem;
 }
 .left-side {
-  background-color: rgb(222, 194, 35);
+  background-image: linear-gradient(
+    rgba(58, 238, 9, 0.63),
+    rgba(27, 206, 222, 0.858),
+    rgba(12, 12, 45, 0.697)
+  );
   padding: 1rem;
 }
